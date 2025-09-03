@@ -105,7 +105,7 @@ export default function PlaylistCarousel() {
         </CardTitle>
         <div className="flex gap-2">
           <Button
-            variant="outline"
+            variant="reverse"
             size="sm"
             onClick={prevSlide}
             className="rounded-full p-2"
@@ -113,7 +113,7 @@ export default function PlaylistCarousel() {
             <ChevronLeft className="w-4 h-4" />
           </Button>
           <Button
-            variant="outline"
+            variant="reverse"
             size="sm"
             onClick={nextSlide}
             className="rounded-full p-2"
@@ -134,10 +134,10 @@ export default function PlaylistCarousel() {
                       <Play className="w-8 h-8 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                     </div>
                     <div className="absolute top-2 right-2 flex gap-1">
-                      <Button size="sm" variant="ghost" className="h-8 w-8 p-0 bg-white/20 hover:bg-white/30">
+                      <Button size="sm" className="h-8 w-8 p-0 bg-white/20 hover:bg-white/30">
                         <Heart className="w-4 h-4" />
                       </Button>
-                      <Button size="sm" variant="ghost" className="h-8 w-8 p-0 bg-white/20 hover:bg-white/30">
+                      <Button size="sm" className="h-8 w-8 p-0 bg-white/20 hover:bg-white/30">
                         <Share2 className="w-4 h-4" />
                       </Button>
                     </div>
